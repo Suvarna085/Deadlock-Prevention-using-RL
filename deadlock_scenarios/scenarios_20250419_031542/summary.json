@@ -1,0 +1,13 @@
+{
+  "timestamp": "20250419_031542",
+  "num_scenarios": 7,
+  "scenario_files": [
+    "deadlock_scenarios/scenarios_20250419_031542/scenario_1.json",
+    "deadlock_scenarios/scenarios_20250419_031542/scenario_2.json",
+    "deadlock_scenarios/scenarios_20250419_031542/scenario_3.json",
+    "deadlock_scenarios/scenarios_20250419_031542/scenario_4.json",
+    "deadlock_scenarios/scenarios_20250419_031542/scenario_5.json",
+    "deadlock_scenarios/scenarios_20250419_031542/scenario_6.json",
+    "deadlock_scenarios/scenarios_20250419_031542/scenario_7.json"
+  ]
+}

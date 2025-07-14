@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-06-23 12:53:42",
+  "state_size": 60,
+  "action_size": 50,
+  "num_processes": 5,
+  "num_resources": 5,
+  "training_sequences": 105,
+  "epochs": 50,
+  "batch_size": 32
+}

@@ -1,0 +1,569 @@
+{
+  "seed_state": {
+    "num_processes": 4,
+    "num_resources": 3,
+    "max_resource_instances": 3,
+    "resource_instances": [
+      3,
+      3,
+      3
+    ],
+    "process_needs": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        2
+      ]
+    ]
+  },
+  "steps": 8,
+  "deadlocked": true,
+  "history": [
+    {
+      "allocation": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "request": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "available": [
+        3,
+        3,
+        3
+      ],
+      "completed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "deadlocked": false,
+      "steps": 0
+    },
+    {
+      "allocation": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "request": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "available": [
+        1,
+        1,
+        2
+      ],
+      "completed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "deadlocked": false,
+      "steps": 1
+    },
+    {
+      "allocation": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "request": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "available": [
+        0,
+        0,
+        0
+      ],
+      "completed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "deadlocked": false,
+      "steps": 2
+    },
+    {
+      "allocation": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "request": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "available": [
+        0,
+        0,
+        0
+      ],
+      "completed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "deadlocked": false,
+      "steps": 3
+    },
+    {
+      "allocation": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "request": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "available": [
+        0,
+        0,
+        0
+      ],
+      "completed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "deadlocked": false,
+      "steps": 4
+    },
+    {
+      "allocation": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "request": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "available": [
+        0,
+        0,
+        0
+      ],
+      "completed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "deadlocked": false,
+      "steps": 5
+    },
+    {
+      "allocation": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "request": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "available": [
+        0,
+        0,
+        0
+      ],
+      "completed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "deadlocked": false,
+      "steps": 6
+    },
+    {
+      "allocation": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "request": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "available": [
+        0,
+        0,
+        0
+      ],
+      "completed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "deadlocked": false,
+      "steps": 7
+    },
+    {
+      "allocation": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "request": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "available": [
+        0,
+        0,
+        0
+      ],
+      "completed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "deadlocked": true,
+      "steps": 8
+    }
+  ]
+}

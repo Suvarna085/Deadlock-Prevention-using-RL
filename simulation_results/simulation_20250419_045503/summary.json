@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-04-19 04:55:03",
+  "parameters": {
+    "num_processes": 3,
+    "num_resources": 3,
+    "max_resource_instances": 1,
+    "max_steps": 20
+  },
+  "total_simulations": 5,
+  "simulations": [
+    {
+      "id": 1,
+      "deadlocked": false,
+      "steps": 7,
+      "completed_processes": 3,
+      "file": "1.json"
+    },
+    {
+      "id": 2,
+      "deadlocked": false,
+      "steps": 8,
+      "completed_processes": 3,
+      "file": "2.json"
+    },
+    {
+      "id": 3,
+      "deadlocked": false,
+      "steps": 9,
+      "completed_processes": 3,
+      "file": "3.json"
+    },
+    {
+      "id": 4,
+      "deadlocked": false,
+      "steps": 4,
+      "completed_processes": 3,
+      "file": "4.json"
+    },
+    {
+      "id": 5,
+      "deadlocked": true,
+      "steps": 10,
+      "completed_processes": 1,
+      "file": "5.json"
+    }
+  ],
+  "stats": {
+    "deadlock_rate": 20.0,
+    "avg_steps": 7.6,
+    "avg_completed_processes": 2.6
+  }
+}

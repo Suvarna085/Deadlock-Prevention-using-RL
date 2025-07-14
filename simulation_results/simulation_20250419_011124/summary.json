@@ -1,0 +1,157 @@
+{
+  "timestamp": "2025-04-19 01:11:24",
+  "parameters": {
+    "num_processes": 5,
+    "num_resources": 4,
+    "max_resource_instances": 3,
+    "max_steps": 50
+  },
+  "total_simulations": 20,
+  "simulations": [
+    {
+      "id": 1,
+      "deadlocked": true,
+      "steps": 10,
+      "completed_processes": 0,
+      "file": "1.json"
+    },
+    {
+      "id": 2,
+      "deadlocked": true,
+      "steps": 9,
+      "completed_processes": 1,
+      "file": "2.json"
+    },
+    {
+      "id": 3,
+      "deadlocked": false,
+      "steps": 11,
+      "completed_processes": 5,
+      "file": "3.json"
+    },
+    {
+      "id": 4,
+      "deadlocked": false,
+      "steps": 8,
+      "completed_processes": 5,
+      "file": "4.json"
+    },
+    {
+      "id": 5,
+      "deadlocked": true,
+      "steps": 13,
+      "completed_processes": 1,
+      "file": "5.json"
+    },
+    {
+      "id": 6,
+      "deadlocked": false,
+      "steps": 14,
+      "completed_processes": 5,
+      "file": "6.json"
+    },
+    {
+      "id": 7,
+      "deadlocked": true,
+      "steps": 8,
+      "completed_processes": 0,
+      "file": "7.json"
+    },
+    {
+      "id": 8,
+      "deadlocked": true,
+      "steps": 10,
+      "completed_processes": 0,
+      "file": "8.json"
+    },
+    {
+      "id": 9,
+      "deadlocked": true,
+      "steps": 11,
+      "completed_processes": 2,
+      "file": "9.json"
+    },
+    {
+      "id": 10,
+      "deadlocked": true,
+      "steps": 13,
+      "completed_processes": 0,
+      "file": "10.json"
+    },
+    {
+      "id": 11,
+      "deadlocked": true,
+      "steps": 10,
+      "completed_processes": 0,
+      "file": "11.json"
+    },
+    {
+      "id": 12,
+      "deadlocked": false,
+      "steps": 9,
+      "completed_processes": 5,
+      "file": "12.json"
+    },
+    {
+      "id": 13,
+      "deadlocked": false,
+      "steps": 9,
+      "completed_processes": 5,
+      "file": "13.json"
+    },
+    {
+      "id": 14,
+      "deadlocked": true,
+      "steps": 17,
+      "completed_processes": 2,
+      "file": "14.json"
+    },
+    {
+      "id": 15,
+      "deadlocked": false,
+      "steps": 17,
+      "completed_processes": 5,
+      "file": "15.json"
+    },
+    {
+      "id": 16,
+      "deadlocked": true,
+      "steps": 8,
+      "completed_processes": 1,
+      "file": "16.json"
+    },
+    {
+      "id": 17,
+      "deadlocked": true,
+      "steps": 11,
+      "completed_processes": 0,
+      "file": "17.json"
+    },
+    {
+      "id": 18,
+      "deadlocked": false,
+      "steps": 12,
+      "completed_processes": 5,
+      "file": "18.json"
+    },
+    {
+      "id": 19,
+      "deadlocked": true,
+      "steps": 9,
+      "completed_processes": 0,
+      "file": "19.json"
+    },
+    {
+      "id": 20,
+      "deadlocked": false,
+      "steps": 9,
+      "completed_processes": 5,
+      "file": "20.json"
+    }
+  ],
+  "stats": {
+    "deadlock_rate": 60.0,
+    "avg_steps": 10.9,
+    "avg_completed_processes": 2.35
+  }
+}

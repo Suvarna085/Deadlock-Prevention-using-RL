@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-04-19 11:50:13",
+  "parameters": {
+    "num_processes": 3,
+    "num_resources": 3,
+    "max_resource_instances": 1,
+    "max_steps": 20
+  },
+  "total_simulations": 10,
+  "simulations": [
+    {
+      "id": 1,
+      "deadlocked": false,
+      "steps": 4,
+      "completed_processes": 3,
+      "file": "1.json"
+    },
+    {
+      "id": 2,
+      "deadlocked": true,
+      "steps": 11,
+      "completed_processes": 1,
+      "file": "2.json"
+    },
+    {
+      "id": 3,
+      "deadlocked": true,
+      "steps": 9,
+      "completed_processes": 1,
+      "file": "3.json"
+    },
+    {
+      "id": 4,
+      "deadlocked": false,
+      "steps": 6,
+      "completed_processes": 3,
+      "file": "4.json"
+    },
+    {
+      "id": 5,
+      "deadlocked": false,
+      "steps": 12,
+      "completed_processes": 3,
+      "file": "5.json"
+    },
+    {
+      "id": 6,
+      "deadlocked": false,
+      "steps": 8,
+      "completed_processes": 3,
+      "file": "6.json"
+    },
+    {
+      "id": 7,
+      "deadlocked": false,
+      "steps": 10,
+      "completed_processes": 3,
+      "file": "7.json"
+    },
+    {
+      "id": 8,
+      "deadlocked": true,
+      "steps": 12,
+      "completed_processes": 0,
+      "file": "8.json"
+    },
+    {
+      "id": 9,
+      "deadlocked": false,
+      "steps": 13,
+      "completed_processes": 3,
+      "file": "9.json"
+    },
+    {
+      "id": 10,
+      "deadlocked": false,
+      "steps": 5,
+      "completed_processes": 3,
+      "file": "10.json"
+    }
+  ],
+  "stats": {
+    "deadlock_rate": 30.0,
+    "avg_steps": 9.0,
+    "avg_completed_processes": 2.3
+  }
+}

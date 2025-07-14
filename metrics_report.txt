@@ -1,0 +1,80 @@
+DEADLOCK PREVENTION METRICS REPORT
+==================================================
+
+SIMULATION METRICS
+--------------------
+Dataset: simulation_20250419_011124
+  Config: 5P/4R
+  Deadlock rate: 60.0%
+  Avg steps: 10.9
+
+Dataset: simulation_20250419_011741
+  Config: 4P/4R
+  Deadlock rate: 53.3%
+  Avg steps: 8.5
+
+Dataset: simulation_20250419_013839
+  Config: 4P/4R
+  Deadlock rate: 40.0%
+  Avg steps: 9.2
+
+Dataset: simulation_20250419_032457
+  Config: 4P/3R
+  Deadlock rate: 40.0%
+  Avg steps: 7.8
+
+Dataset: simulation_20250419_045503
+  Config: 3P/3R
+  Deadlock rate: 20.0%
+  Avg steps: 7.6
+
+Dataset: simulation_20250419_115013
+  Config: 3P/3R
+  Deadlock rate: 30.0%
+  Avg steps: 9.0
+
+Dataset: simulation_20250419_115222
+  Config: 3P/3R
+  Deadlock rate: 20.0%
+  Avg steps: 7.4
+
+Dataset: simulation_20250419_135254
+  Config: 3P/3R
+  Deadlock rate: 30.0%
+  Avg steps: 7.8
+
+Dataset: simulation_20250419_144424
+  Config: 3P/4R
+  Deadlock rate: 20.0%
+  Avg steps: 7.9
+
+MODEL METRICS
+---------------
+Model: deadlock_agent_20250419_015343
+  Dimensions: 4P/4R
+  Training sequences: 92
+
+Model: deadlock_agent_20250419_021611
+  Dimensions: 4P/3R
+  Training sequences: 175
+
+Model: deadlock_agent_20250419_030358
+  Dimensions: 4P/3R
+  Training sequences: 253
+
+Model: deadlock_agent_20250419_050136
+  Dimensions: 4P/4R
+  Training sequences: 101
+
+Model: deadlock_agent_20250419_080433
+  Dimensions: 4P/4R
+  Training sequences: 50
+
+Model: deadlock_agent_20250419_140256
+  Dimensions: 3P/3R
+  Training sequences: 46
+
+Model: deadlock_agent_20250623_125342
+  Dimensions: 5P/5R
+  Training sequences: 105
+
