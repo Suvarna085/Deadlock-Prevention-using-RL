@@ -7,8 +7,7 @@ This project uses a Deep Q-Network (DQN) to detect and prevent deadlocks in a si
 - Custom environment simulating process requests & resource allocation
 - RL agent learns to avoid deadlocks via reward signals
 - Metrics tracking for performance (rewards & deadlocks avoided)
-
-- 
+  
 ## 🧠 How it Works
 
 - **State**: Encoded from held/requested resource matrices
